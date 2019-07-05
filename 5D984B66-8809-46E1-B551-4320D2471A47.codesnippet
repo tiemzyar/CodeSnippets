@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>urlcache</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let sharedCache = URLCache(memoryCapacity:0, diskCapacity:0, diskPath:nil)
+        URLCache.shared = sharedCache</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>5D984B66-8809-46E1-B551-4320D2471A47</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Prevents URL caching on a global level (add to Application Delegate's application(_: didFinishLaunchingWithOptions:) method)</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift URL Cache</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

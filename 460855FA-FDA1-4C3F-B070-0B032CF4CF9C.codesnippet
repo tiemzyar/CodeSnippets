@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dispatchasync</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+    
+    &lt;#Stuff you want to do asynchronously#&gt;
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        &lt;#Stuff that needs to be done on the main queue (e.g. changing the UI)#&gt;
+    });
+});</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>460855FA-FDA1-4C3F-B070-0B032CF4CF9C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Inserts a customizable dispatch_async block</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Objective-C Dispatch Async</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

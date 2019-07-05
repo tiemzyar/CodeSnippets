@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>pasteboard</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>[UIPasteboard.generalPasteboard setValue:@"" forPasteboardType:UIPasteboardNameGeneral];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>01A3ED03-7AAF-413D-8BB7-744084BF989A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Clears a device's pasteboard (add to Application Delegate's applicationDidEnterBackground: method)</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Objective-C Clear Pasteboard</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

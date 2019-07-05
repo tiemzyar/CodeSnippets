@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>backup</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>func addSkipBackupAttributeToItem(atPath path: String) -&gt; Bool {
+    
+        var urlToExclude = URL(fileURLWithPath: path)
+        assert(FileManager.default.fileExists(atPath: urlToExclude.path))
+        
+        var success = true
+        
+        do {
+            var resourceValues = URLResourceValues()
+            resourceValues.isExcludedFromBackup = true
+            try urlToExclude.setResourceValues(resourceValues)
+            
+        } catch {
+            print("Failed to set attribute for backup exclusion for item at path \(path)")
+            success = false
+        }
+        
+        return success
+    
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>38CDCA3D-426C-48B4-ABCC-649695AEFB93</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Excludes a file at a given path from backups</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift Backup Prevention</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
