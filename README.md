@@ -6,6 +6,7 @@ Collection of Xcode code snippets for Swift and Objective-C.
 Author: tiemzyar <br />
 Date: 2019-07-01 <br />
 Xcode-Version: 10.2.1
+
 ---
 
 ### Usage
@@ -15,7 +16,7 @@ Xcode-Version: 10.2.1
 cd ~/Library/Developer/Xcode/UserData
 ```
 
-#### Clone repository
+#### Clone repository:
 ```
 git clone https://github.com/tiemzyar/CodeSnippets.git
 ```
